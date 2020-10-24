@@ -10,11 +10,9 @@ import Inv from "./services/inventory";
 function App() {
   const [inventory, setInventory] = useState(new Inv());
   
-  const doSomething = (something) =>{
-    console.log(" adding Item");
-    inventory.addItem(something)
-    setInventory(inventory)
-    
+  const doSomething = (product) =>{
+    inventory.addItem(product)
+    setInventory(new Inv(inventory.getInventory()))
   }
   return (
     <div className="App">

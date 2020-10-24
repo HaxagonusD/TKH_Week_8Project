@@ -1,10 +1,11 @@
 export default class Inventory{
-    constructor(){
-        this.inventory = {};
+    constructor(inventory={}){
+        this.inventory = inventory;
+        console.log(this.inventory)
     }
 
-    addItem(something){
-        this.inventory[something.id] = something;
+    addItem(product){
+        this.inventory[product.id] = product;
         return this;
     }
 
