@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.8.6",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-scripts": "3.4.4"
@@ -30,5 +31,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "- We are using the inventory.js and product.js classes to hold information\r   - We can easily connect these to a data base if we wanted to \r - Product.js is a component to show the individual Products \r - Inventory.js is a component that contains all the Products \r - Fm.js is a component that is a form that allows us to input new Products \r - The UI is written with Ant Design for React",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
